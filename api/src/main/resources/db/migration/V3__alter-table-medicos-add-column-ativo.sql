@@ -1,3 +1,3 @@
-alter table medicos add ativo timyint
+alter table medicos add ativo tinyint;
 update medicos set ativo = 1;
 

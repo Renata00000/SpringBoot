@@ -42,7 +42,7 @@ repository.save( new Medico(dados));
     }
 
     //dizendo p deletar po id que vou colocar no insomnia
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     @Transactional
     public void excluir(@PathVariable long id){
         var medico  = repository.getReferenceById(id);

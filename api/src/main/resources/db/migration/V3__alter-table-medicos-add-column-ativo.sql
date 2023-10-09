@@ -1,2 +1,3 @@
-alter table add ativo timyint
-update medico set ativo = 1;
+alter table medicos add ativo timyint
+update medicos set ativo = 1;
+
